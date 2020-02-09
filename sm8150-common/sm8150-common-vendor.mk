@@ -1537,7 +1537,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
-    vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
+    vendor/oneplus/sm8150-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
+	vendor/oneplus/sm8150-common/proprietary/apex/com.android.conscrypt.apex:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.conscrypt.apex \
+	vendor/oneplus/sm8150-common/proprietary/apex/com.android.media.apex:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.media.apex \
+	vendor/oneplus/sm8150-common/proprietary/apex/com.android.media.swcodec.apex:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.media.swcodec.apex \
+	vendor/oneplus/sm8150-common/proprietary/apex/com.android.resolv.apex:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.resolv.apex \
+	vendor/oneplus/sm8150-common/proprietary/apex/com.android.tzdata.apex:$(TARGET_COPY_OUT_SYSTEM)/apex/com.android.tzdata.apex
 
 PRODUCT_PACKAGES += \
     libantradio \
